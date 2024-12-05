@@ -2,6 +2,7 @@ import type {Metadata} from 'next'
 import {Inter} from 'next/font/google'
 import './globals.css'
 import {SupplementProvider} from "@/components/SupplementContext";
+import {FavoritesProvider} from "@/components/FavoritesContext";
 
 const inter = Inter({subsets: ['latin']})
 
@@ -18,9 +19,11 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body className={inter.className}>
+        <FavoritesProvider>
         <SupplementProvider>
             {children}
         </SupplementProvider>
+        </FavoritesProvider>
         </body>
         </html>
     )

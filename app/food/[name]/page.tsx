@@ -8,6 +8,9 @@ import {Slider} from "@/components/ui/slider"
 import {Button} from "@/components/ui/button"
 import {Input} from "@/components/ui/input"
 import {useSupplement} from "@/components/SupplementContext";
+import {useFavorites} from "@/components/FavoritesContext";
+import foodData from '@/data/food-items.json';
+
 // Mock data for food items
 interface FoodItem {
     name: string;
@@ -17,17 +20,6 @@ interface FoodItem {
     typicalPortionUnit: string;
 }
 
-const foodItems: FoodItem[] = [
-    {name: "Apple", fatContent: "0.2g", isFavorite: true, typicalPortionSize: 100, typicalPortionUnit: "g"},
-    {name: "Banana", fatContent: "0.3g", isFavorite: false, typicalPortionSize: 120, typicalPortionUnit: "g"},
-    {name: "Cheese", fatContent: "33g", isFavorite: true, typicalPortionSize: 30, typicalPortionUnit: "g"},
-    {name: "Donut", fatContent: "22g", isFavorite: false, typicalPortionSize: 60, typicalPortionUnit: "g"},
-    {name: "Egg", fatContent: "5g", isFavorite: true, typicalPortionSize: 50, typicalPortionUnit: "g"},
-    {name: "French Fries", fatContent: "15g", isFavorite: false, typicalPortionSize: 100, typicalPortionUnit: "g"},
-    {name: "Grapes", fatContent: "0.2g", isFavorite: false, typicalPortionSize: 80, typicalPortionUnit: "g"},
-    {name: "Ham", fatContent: "7g", isFavorite: true, typicalPortionSize: 50, typicalPortionUnit: "g"}
-]
-
 
 export default function FoodDetail({params}: { params: { name: string } }) {
     const router = useRouter()
@@ -35,13 +27,13 @@ export default function FoodDetail({params}: { params: { name: string } }) {
     const [foodItem, setFoodItem] = useState<FoodItem | null>(null)
     const [portion, setPortion] = useState(100)
     const [numberOfPortions, setNumberOfPortions] = useState(1)
-    const [isFavorite, setIsFavorite] = useState(false)
+    const {isFavorite, toggleFavorite} = useFavorites()
 
     useEffect(() => {
-        const item = foodItems.find(item => item.name.toLowerCase() === params.name.toLowerCase())
+        const decodedName = decodeURIComponent(params.name)
+        const item = foodData.foodItems.find(item => item.name === decodedName)
         if (item) {
             setFoodItem(item)
-            setIsFavorite(item.isFavorite)
             setPortion(item.typicalPortionSize)
         }
     }, [params.name])
@@ -60,11 +52,6 @@ export default function FoodDetail({params}: { params: { name: string } }) {
         setNumberOfPortions(prev => Math.max(1, prev + change))
     }
 
-    const toggleFavorite = () => {
-        setIsFavorite(!isFavorite)
-        // Here you would typically update this in your backend or local storage
-    }
-
     return (
         <div className="container mx-auto px-4 py-8">
             <div className="flex justify-between items-center mb-4">
@@ -80,10 +67,14 @@ export default function FoodDetail({params}: { params: { name: string } }) {
             </div>
             <div className="bg-card text-card-foreground rounded-lg shadow-lg p-6">
                 <h1 className="text-3xl font-bold mb-4">{foodItem.name}</h1>
+                <div className="bg-secondary/50 rounded-md p-4 mb-6">
+                    <p className="text-sm text-muted-foreground">Base fat content</p>
+                    <p className="text-lg font-medium">{foodItem.fatContent}g per {foodItem.typicalPortionUnit}</p>
+                </div>
                 <p className="text-xl mb-6">Fat Content: {adjustedFatContent}g</p>
                 <div className="mb-6">
                     <label htmlFor="portion-slider" className="block text-sm font-medium mb-2">
-                        Portion Size: {portion}g
+                        Portion Size: {portion}{foodItem.typicalPortionUnit}
                     </label>
                     <Slider
                         id="portion-slider"
@@ -127,9 +118,13 @@ export default function FoodDetail({params}: { params: { name: string } }) {
                     <h2 className="text-2xl font-semibold mb-2">Enzyme Dosage</h2>
                     <p className="text-xl">Take {enzymeDosage} capsule{enzymeDosage !== 1 ? 's' : ''} of {selectedSupplement.name}</p>
                 </div>
-                <Button onClick={toggleFavorite} variant={isFavorite ? "secondary" : "outline"} className="w-full">
-                    <Heart className={`mr-2 h-4 w-4 ${isFavorite ? 'fill-current' : ''}`}/>
-                    {isFavorite ? 'Remove from Favorites' : 'Add to Favorites'}
+                <Button 
+                    onClick={() => toggleFavorite(foodItem.name)} 
+                    variant={isFavorite(foodItem.name) ? "secondary" : "outline"} 
+                    className="w-full"
+                >
+                    <Heart className={`mr-2 h-4 w-4 ${isFavorite(foodItem.name) ? 'fill-current' : ''}`}/>
+                    {isFavorite(foodItem.name) ? 'Remove from Favorites' : 'Add to Favorites'}
                 </Button>
             </div>
         </div>

@@ -12,26 +12,17 @@ import {
     CommandItem,
     CommandList,
 } from "@/components/ui/command"
+import foodData from '@/data/food-items.json'
 import {useRouter} from 'next/navigation'
-
-// Mock data for suggestions
-const suggestions = [
-    {name: "Apple", fatContent: "0.2g", isFavorite: true, typicalPortionSize: 100, typicalPortionUnit: "g"},
-    {name: "Banana", fatContent: "0.3g", isFavorite: false, typicalPortionSize: 120, typicalPortionUnit: "g"},
-    {name: "Cheese", fatContent: "33g", isFavorite: true, typicalPortionSize: 30, typicalPortionUnit: "g"},
-    {name: "Donut", fatContent: "22g", isFavorite: false, typicalPortionSize: 60, typicalPortionUnit: "g"},
-    {name: "Egg", fatContent: "5g", isFavorite: true, typicalPortionSize: 50, typicalPortionUnit: "g"},
-    {name: "French Fries", fatContent: "15g", isFavorite: false, typicalPortionSize: 100, typicalPortionUnit: "g"},
-    {name: "Grapes", fatContent: "0.2g", isFavorite: false, typicalPortionSize: 80, typicalPortionUnit: "g"},
-    {name: "Ham", fatContent: "7g", isFavorite: true, typicalPortionSize: 50, typicalPortionUnit: "g"}
-]
+import {useFavorites} from './FavoritesContext'
 
 export function Search({onSearch}: { onSearch: (term: string) => void }) {
     const [open, setOpen] = useState(false)
     const [searchTerm, setSearchTerm] = useState("")
     const router = useRouter()
+    const {isFavorite} = useFavorites()
 
-    const filteredSuggestions = suggestions.filter(item =>
+    const filteredSuggestions = foodData.foodItems.filter(item =>
         item.name.toLowerCase().includes(searchTerm.toLowerCase())
     )
 
@@ -39,7 +30,7 @@ export function Search({onSearch}: { onSearch: (term: string) => void }) {
         setSearchTerm(selectedItem)
         setOpen(false)
         onSearch(selectedItem)
-        router.push(`/food/${encodeURIComponent(selectedItem.toLowerCase())}`)
+        router.push(`/food/${encodeURIComponent(selectedItem)}`)
     }
 
     const handleSearch = () => {
@@ -79,9 +70,9 @@ export function Search({onSearch}: { onSearch: (term: string) => void }) {
                             <CommandItem key={item.name} onSelect={() => handleSelect(item.name)}>
                                 <span>{item.name}</span>
                                 <span className="ml-2 text-sm text-muted-foreground">
-                  {item.fatContent} fat
+                  {item.fatContent}g fat per {item.typicalPortionUnit}
                 </span>
-                                {item.isFavorite && (
+                                {isFavorite(item.name) && (
                                     <span className="ml-auto text-yellow-500">★</span>
                                 )}
                             </CommandItem>

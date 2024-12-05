@@ -1,0 +1,374 @@
+{
+	"foodItems": [{
+			"name": "Ayran",
+			"fatContent": "0,5",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Buttermilch",
+			"fatContent": "1",
+			"isFavorite": true,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Dickmilch mit Früchten, 1,5 % Fett",
+			"fatContent": "3",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Dickmilch mit Früchten, 3,5 % Fett",
+			"fatContent": "8",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Dickmilch pur, 1,5 % Fett",
+			"fatContent": "4",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Dickmilch pur, 3,5 % Fett",
+			"fatContent": "9",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Haferdrink",
+			"fatContent": "4",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Kakao",
+			"fatContent": "10",
+			"isFavorite": true,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Kokosdrink",
+			"fatContent": "1",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Magermilchpulver",
+			"fatContent": "1",
+			"isFavorite": false,
+			"typicalPortionSize": 20,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Mandeldrink ohne Zucker",
+			"fatContent": "3",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Molke süß",
+			"fatContent": "1",
+			"isFavorite": true,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Molken-Fruchtgetränk",
+			"fatContent": "3",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Sahne-Dickmilch, 10 % Fett",
+			"fatContent": "25",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Sojadrink",
+			"fatContent": "4",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Trinkmilch, fettarm, 1,5 % Fett",
+			"fatContent": "4",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Trinkmilch, Vollmilch, 3,5 % Fett",
+			"fatContent": "9",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Crème fraîche, Creme double, 40 % Fett",
+			"fatContent": "6",
+			"isFavorite": false,
+			"typicalPortionSize": 15,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Sahne, flüssig, 30 % Fett",
+			"fatContent": "5",
+			"isFavorite": false,
+			"typicalPortionSize": 15,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Sahne, flüssig, 30 % Fett, 1 Becher",
+			"fatContent": "60",
+			"isFavorite": false,
+			"typicalPortionSize": 200,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Sahne/Milchmischung",
+			"fatContent": "20",
+			"isFavorite": true,
+			"typicalPortionSize": 200,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Saure Sahne, 10 % Fett",
+			"fatContent": "2",
+			"isFavorite": false,
+			"typicalPortionSize": 15,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Schlagsahne, gezuckert, 30 % Fett, 1 hochgehäufter EL",
+			"fatContent": "8",
+			"isFavorite": false,
+			"typicalPortionSize": 25,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Schlagsahne, gezuckert, 30 % Fett, 2 hochgehäufte EL",
+			"fatContent": "16",
+			"isFavorite": true,
+			"typicalPortionSize": 50,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Schlagsahne, geschlagen, 30 % Fett, 1 leicht gehäufter EL",
+			"fatContent": "5",
+			"isFavorite": false,
+			"typicalPortionSize": 15,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Schlagsahne, geschlagen, 30 % Fett, 1 gehäufter TL",
+			"fatContent": "2",
+			"isFavorite": false,
+			"typicalPortionSize": 6,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Schmand, 24 % Fett",
+			"fatContent": "4",
+			"isFavorite": false,
+			"typicalPortionSize": 15,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Fruchtzwerg*",
+			"fatContent": "1",
+			"isFavorite": true,
+			"typicalPortionSize": 50,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Joghurt, pur, 10 % Fett, Griechischer Joghurt, Sahne-Joghurt",
+			"fatContent": "11",
+			"isFavorite": true,
+			"typicalPortionSize": 150,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Joghurt, pur, 3,5 % Fett",
+			"fatContent": "5",
+			"isFavorite": true,
+			"typicalPortionSize": 150,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Joghurt, pur, 3,8 % Fett",
+			"fatContent": "5",
+			"isFavorite": false,
+			"typicalPortionSize": 150,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Joghurt, pur, fettarm 1,5 % Fett",
+			"fatContent": "2",
+			"isFavorite": false,
+			"typicalPortionSize": 150,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Kefir, 3,5 % Fett",
+			"fatContent": "10",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Kefir, 10 % Fett",
+			"fatContent": "25",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Kefir, fettarm, 1,5 % Fett",
+			"fatContent": "4",
+			"isFavorite": false,
+			"typicalPortionSize": 250,
+			"typicalPortionUnit": "ml"
+		},
+		{
+			"name": "Cottage Cheese, Hüttenkäse, körniger Frischkäse, 20 % F. i. Tr.",
+			"fatContent": "5",
+			"isFavorite": false,
+			"typicalPortionSize": 100,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Frischkäse, Rahmstufe, 50 % F. i. Tr.",
+			"fatContent": "7",
+			"isFavorite": false,
+			"typicalPortionSize": 30,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Frischkäse, Doppelrahmstufe, 60 % F. i. Tr.",
+			"fatContent": "10",
+			"isFavorite": false,
+			"typicalPortionSize": 30,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Fruchtquark, 20 % F. i. Tr.",
+			"fatContent": "5",
+			"isFavorite": true,
+			"typicalPortionSize": 100,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Kräuterquark, 20 % F. i. Tr.",
+			"fatContent": "3",
+			"isFavorite": false,
+			"typicalPortionSize": 100,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Kräuterquark, 20 % F. i. Tr., 3 EL",
+			"fatContent": "1",
+			"isFavorite": false,
+			"typicalPortionSize": 30,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Kräuterquark, 40 % F. i. Tr.",
+			"fatContent": "10",
+			"isFavorite": false,
+			"typicalPortionSize": 100,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Kräuterquark, 40 % F. i. Tr., 3 EL",
+			"fatContent": "3",
+			"isFavorite": false,
+			"typicalPortionSize": 30,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Mascarpone, 80 % F. i. Tr.",
+			"fatContent": "24",
+			"isFavorite": false,
+			"typicalPortionSize": 50,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Mozzarella, 45 % F. i. Tr., 1/2 Kugel",
+			"fatContent": "12",
+			"isFavorite": false,
+			"typicalPortionSize": 60,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Mozzarella, 45 % F. i. Tr., 1 Kugel",
+			"fatContent": "24",
+			"isFavorite": false,
+			"typicalPortionSize": 125,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Ricotta, 20 % F. i. Tr.",
+			"fatContent": "5",
+			"isFavorite": false,
+			"typicalPortionSize": 30,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Schichtkäse, 20 % F. i. Tr.",
+			"fatContent": "5",
+			"isFavorite": false,
+			"typicalPortionSize": 100,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Schichtkäse, 40 % F. i. Tr.",
+			"fatContent": "11",
+			"isFavorite": false,
+			"typicalPortionSize": 100,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Speisequark, Magerstufe",
+			"fatContent": "0",
+			"isFavorite": false,
+			"typicalPortionSize": 100,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Speisequark, 20 % F. i. Tr.",
+			"fatContent": "5",
+			"isFavorite": false,
+			"typicalPortionSize": 100,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Speisequark, 40 % F. i. Tr.",
+			"fatContent": "11",
+			"isFavorite": false,
+			"typicalPortionSize": 100,
+			"typicalPortionUnit": "g"
+		},
+		{
+			"name": "Speisequark, 40 % F. i. Tr., 3 EL",
+			"fatContent": "3",
+			"isFavorite": false,
+			"typicalPortionSize": 30,
+			"typicalPortionUnit": "g"
+		}
+	]
+}
