@@ -15,8 +15,7 @@ export default function Home() {
 
     const updateRecentSearches = (newSearch: string) => {
         setRecentSearches(prev => {
-            const updatedSearches = [newSearch, ...prev.filter(i => i !== newSearch)].slice(0, 5)
-            return updatedSearches
+            return [newSearch, ...prev.filter(i => i !== newSearch)].slice(0, 5)
         })
     }
 
