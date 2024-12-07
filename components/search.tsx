@@ -12,6 +12,7 @@ import {
     CommandItem,
     CommandList,
 } from "@/components/ui/command"
+import {DialogTitle} from "@/components/ui/dialog"
 import foodData from '@/data/food-items.json'
 import {useRouter} from 'next/navigation'
 import {useFavorites} from './FavoritesContext'
@@ -58,6 +59,7 @@ export function Search({onSearch}: { onSearch: (term: string) => void }) {
                 </Button>
             </div>
             <CommandDialog open={open} onOpenChange={setOpen}>
+                <DialogTitle className="sr-only">Search Food Items</DialogTitle>
                 <CommandInput
                     placeholder="Type a food item..."
                     value={searchTerm}
@@ -70,7 +72,7 @@ export function Search({onSearch}: { onSearch: (term: string) => void }) {
                             <CommandItem key={item.name} onSelect={() => handleSelect(item.name)}>
                                 <span>{item.name}</span>
                                 <span className="ml-2 text-sm text-muted-foreground">
-                  {item.fatContent}g fat per {item.typicalPortionUnit}
+                  {item.fatContent}g fat per {item.typicalPortionSize} {item.typicalPortionUnit}
                 </span>
                                 {isFavorite(item.name) && (
                                     <span className="ml-auto text-yellow-500">★</span>

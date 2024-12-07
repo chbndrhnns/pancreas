@@ -11,10 +11,9 @@ import {useSupplement} from "@/components/SupplementContext";
 import {useFavorites} from "@/components/FavoritesContext";
 import foodData from '@/data/food-items.json';
 
-// Mock data for food items
 interface FoodItem {
     name: string;
-    fatContent: string;
+    fatContent: string | null;
     isFavorite: boolean;
     typicalPortionSize: number;
     typicalPortionUnit: string;
@@ -40,7 +39,7 @@ export default function FoodDetail({params}: { params: { name: string } }) {
 
     if (!foodItem) return <div>Loading...</div>
 
-    const fatContent = parseFloat(foodItem.fatContent)
+    const fatContent = parseFloat(foodItem.fatContent || '0')
     const adjustedFatContent = (fatContent * portion * numberOfPortions / 100).toFixed(1)
     const enzymeDosage = Math.ceil((parseFloat(adjustedFatContent) * 2000) / selectedSupplement.lipaseUnits)
 
@@ -68,8 +67,9 @@ export default function FoodDetail({params}: { params: { name: string } }) {
             <div className="bg-card text-card-foreground rounded-lg shadow-lg p-6">
                 <h1 className="text-3xl font-bold mb-4">{foodItem.name}</h1>
                 <div className="bg-secondary/50 rounded-md p-4 mb-6">
-                    <p className="text-sm text-muted-foreground">Base fat content</p>
-                    <p className="text-lg font-medium">{foodItem.fatContent}g per {foodItem.typicalPortionUnit}</p>
+                    <p className="text-sm text-muted-foreground">Base fat content per portion</p>
+                    <p className="text-lg font-medium">{foodItem.fatContent}g
+                        per {foodItem.typicalPortionSize} {foodItem.typicalPortionUnit}</p>
                 </div>
                 <p className="text-xl mb-6">Fat Content: {adjustedFatContent}g</p>
                 <div className="mb-6">
@@ -118,9 +118,9 @@ export default function FoodDetail({params}: { params: { name: string } }) {
                     <h2 className="text-2xl font-semibold mb-2">Enzyme Dosage</h2>
                     <p className="text-xl">Take {enzymeDosage} capsule{enzymeDosage !== 1 ? 's' : ''} of {selectedSupplement.name}</p>
                 </div>
-                <Button 
-                    onClick={() => toggleFavorite(foodItem.name)} 
-                    variant={isFavorite(foodItem.name) ? "secondary" : "outline"} 
+                <Button
+                    onClick={() => toggleFavorite(foodItem.name)}
+                    variant={isFavorite(foodItem.name) ? "secondary" : "outline"}
                     className="w-full"
                 >
                     <Heart className={`mr-2 h-4 w-4 ${isFavorite(foodItem.name) ? 'fill-current' : ''}`}/>
