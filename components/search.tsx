@@ -16,6 +16,7 @@ import {DialogTitle} from "@/components/ui/dialog"
 import foodData from '@/data/food-items.json'
 import {useRouter} from 'next/navigation'
 import {useFavorites} from './FavoritesContext'
+import {textMatch} from '@/lib/text'
 
 export function Search({onSearch}: { onSearch: (term: string) => void }) {
     const [open, setOpen] = useState(false)
@@ -23,9 +24,11 @@ export function Search({onSearch}: { onSearch: (term: string) => void }) {
     const router = useRouter()
     const {isFavorite} = useFavorites()
 
-    const filteredSuggestions = foodData.foodItems.filter(item =>
-        item.name.toLowerCase().includes(searchTerm.toLowerCase())
-    )
+    const filteredSuggestions = searchTerm.trim()
+        ? foodData.foodItems
+            .filter(item => textMatch(item.name, searchTerm))
+            .sort((a, b) => a.name.localeCompare(b.name, undefined, {sensitivity: 'base'}))
+        : [];
 
     const handleSelect = (selectedItem: string) => {
         setSearchTerm(selectedItem)
@@ -37,7 +40,6 @@ export function Search({onSearch}: { onSearch: (term: string) => void }) {
     const handleSearch = () => {
         if (searchTerm) {
             onSearch(searchTerm)
-            console.log(`Searching for: ${searchTerm}`)
             setSearchTerm("")
         }
     }
