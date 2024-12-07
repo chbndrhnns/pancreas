@@ -1,374 +1,6505 @@
-{
-	"foodItems": [{
-			"name": "Ayran",
-			"fatContent": "0,5",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Buttermilch",
-			"fatContent": "1",
-			"isFavorite": true,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Dickmilch mit Früchten, 1,5 % Fett",
-			"fatContent": "3",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Dickmilch mit Früchten, 3,5 % Fett",
-			"fatContent": "8",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Dickmilch pur, 1,5 % Fett",
-			"fatContent": "4",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Dickmilch pur, 3,5 % Fett",
-			"fatContent": "9",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Haferdrink",
-			"fatContent": "4",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Kakao",
-			"fatContent": "10",
-			"isFavorite": true,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Kokosdrink",
-			"fatContent": "1",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Magermilchpulver",
-			"fatContent": "1",
-			"isFavorite": false,
-			"typicalPortionSize": 20,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Mandeldrink ohne Zucker",
-			"fatContent": "3",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Molke süß",
-			"fatContent": "1",
-			"isFavorite": true,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Molken-Fruchtgetränk",
-			"fatContent": "3",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Sahne-Dickmilch, 10 % Fett",
-			"fatContent": "25",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Sojadrink",
-			"fatContent": "4",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Trinkmilch, fettarm, 1,5 % Fett",
-			"fatContent": "4",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Trinkmilch, Vollmilch, 3,5 % Fett",
-			"fatContent": "9",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Crème fraîche, Creme double, 40 % Fett",
-			"fatContent": "6",
-			"isFavorite": false,
-			"typicalPortionSize": 15,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Sahne, flüssig, 30 % Fett",
-			"fatContent": "5",
-			"isFavorite": false,
-			"typicalPortionSize": 15,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Sahne, flüssig, 30 % Fett, 1 Becher",
-			"fatContent": "60",
-			"isFavorite": false,
-			"typicalPortionSize": 200,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Sahne/Milchmischung",
-			"fatContent": "20",
-			"isFavorite": true,
-			"typicalPortionSize": 200,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Saure Sahne, 10 % Fett",
-			"fatContent": "2",
-			"isFavorite": false,
-			"typicalPortionSize": 15,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Schlagsahne, gezuckert, 30 % Fett, 1 hochgehäufter EL",
-			"fatContent": "8",
-			"isFavorite": false,
-			"typicalPortionSize": 25,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Schlagsahne, gezuckert, 30 % Fett, 2 hochgehäufte EL",
-			"fatContent": "16",
-			"isFavorite": true,
-			"typicalPortionSize": 50,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Schlagsahne, geschlagen, 30 % Fett, 1 leicht gehäufter EL",
-			"fatContent": "5",
-			"isFavorite": false,
-			"typicalPortionSize": 15,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Schlagsahne, geschlagen, 30 % Fett, 1 gehäufter TL",
-			"fatContent": "2",
-			"isFavorite": false,
-			"typicalPortionSize": 6,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Schmand, 24 % Fett",
-			"fatContent": "4",
-			"isFavorite": false,
-			"typicalPortionSize": 15,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Fruchtzwerg*",
-			"fatContent": "1",
-			"isFavorite": true,
-			"typicalPortionSize": 50,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Joghurt, pur, 10 % Fett, Griechischer Joghurt, Sahne-Joghurt",
-			"fatContent": "11",
-			"isFavorite": true,
-			"typicalPortionSize": 150,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Joghurt, pur, 3,5 % Fett",
-			"fatContent": "5",
-			"isFavorite": true,
-			"typicalPortionSize": 150,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Joghurt, pur, 3,8 % Fett",
-			"fatContent": "5",
-			"isFavorite": false,
-			"typicalPortionSize": 150,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Joghurt, pur, fettarm 1,5 % Fett",
-			"fatContent": "2",
-			"isFavorite": false,
-			"typicalPortionSize": 150,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Kefir, 3,5 % Fett",
-			"fatContent": "10",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Kefir, 10 % Fett",
-			"fatContent": "25",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Kefir, fettarm, 1,5 % Fett",
-			"fatContent": "4",
-			"isFavorite": false,
-			"typicalPortionSize": 250,
-			"typicalPortionUnit": "ml"
-		},
-		{
-			"name": "Cottage Cheese, Hüttenkäse, körniger Frischkäse, 20 % F. i. Tr.",
-			"fatContent": "5",
-			"isFavorite": false,
-			"typicalPortionSize": 100,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Frischkäse, Rahmstufe, 50 % F. i. Tr.",
-			"fatContent": "7",
-			"isFavorite": false,
-			"typicalPortionSize": 30,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Frischkäse, Doppelrahmstufe, 60 % F. i. Tr.",
-			"fatContent": "10",
-			"isFavorite": false,
-			"typicalPortionSize": 30,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Fruchtquark, 20 % F. i. Tr.",
-			"fatContent": "5",
-			"isFavorite": true,
-			"typicalPortionSize": 100,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Kräuterquark, 20 % F. i. Tr.",
-			"fatContent": "3",
-			"isFavorite": false,
-			"typicalPortionSize": 100,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Kräuterquark, 20 % F. i. Tr., 3 EL",
-			"fatContent": "1",
-			"isFavorite": false,
-			"typicalPortionSize": 30,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Kräuterquark, 40 % F. i. Tr.",
-			"fatContent": "10",
-			"isFavorite": false,
-			"typicalPortionSize": 100,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Kräuterquark, 40 % F. i. Tr., 3 EL",
-			"fatContent": "3",
-			"isFavorite": false,
-			"typicalPortionSize": 30,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Mascarpone, 80 % F. i. Tr.",
-			"fatContent": "24",
-			"isFavorite": false,
-			"typicalPortionSize": 50,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Mozzarella, 45 % F. i. Tr., 1/2 Kugel",
-			"fatContent": "12",
-			"isFavorite": false,
-			"typicalPortionSize": 60,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Mozzarella, 45 % F. i. Tr., 1 Kugel",
-			"fatContent": "24",
-			"isFavorite": false,
-			"typicalPortionSize": 125,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Ricotta, 20 % F. i. Tr.",
-			"fatContent": "5",
-			"isFavorite": false,
-			"typicalPortionSize": 30,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Schichtkäse, 20 % F. i. Tr.",
-			"fatContent": "5",
-			"isFavorite": false,
-			"typicalPortionSize": 100,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Schichtkäse, 40 % F. i. Tr.",
-			"fatContent": "11",
-			"isFavorite": false,
-			"typicalPortionSize": 100,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Speisequark, Magerstufe",
-			"fatContent": "0",
-			"isFavorite": false,
-			"typicalPortionSize": 100,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Speisequark, 20 % F. i. Tr.",
-			"fatContent": "5",
-			"isFavorite": false,
-			"typicalPortionSize": 100,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Speisequark, 40 % F. i. Tr.",
-			"fatContent": "11",
-			"isFavorite": false,
-			"typicalPortionSize": 100,
-			"typicalPortionUnit": "g"
-		},
-		{
-			"name": "Speisequark, 40 % F. i. Tr., 3 EL",
-			"fatContent": "3",
-			"isFavorite": false,
-			"typicalPortionSize": 30,
-			"typicalPortionUnit": "g"
-		}
-	]
-}
+[
+    {
+        "name": "Ayran, t\u00fcrkischer Joghurt",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Buttermilch",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Dickmilch mit Fr\u00fcchten, 1,5% Fett",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Dickmilch mit Fr\u00fcchten, 3,5% Fett",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Dickmilch pur, 1,5% Fett",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Dickmilch pur, 3,5% Fett",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Haferdrink",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Kakao, 1 Glas, 0,25 l (250 ml Trinkmilch 3,5% Fett + 1 geh. EL Kakao)",
+        "fatContent": "9 + 1 = 10",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Kokosdrink",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Mandeldrink ohne Zucker",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Molke s\u00fc\u00df",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Sahne-Dickmilch, 10% Fett",
+        "fatContent": "25",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sojadrink",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Trinkmilch, fettarm, 1,5% Fett",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Trinkmilch, Vollmilch, 3,5% Fett",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Cr\u00e8me fra\u00eeche, Creme double, 40% Fett",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sahne, fl\u00fcssig, 30% Fett",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sahne/Milchmischung",
+        "fatContent": "15 + 5 = 20",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Saure Sahne, 10% Fett",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schlagsahne, gezuckert, 30% Fett",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schlagsahne, geschlagen, 30% Fett",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schmand, 24% Fett",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Coffee-mate, Kaffeewei\u00dfer",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 3,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vollmilchpulver",
+        "fatContent": "93",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kakaopulver, ohne Zucker",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 12,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Banane-, Erdbeer-, Vanille-Trunk, 3,5% Fett",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Kakaotrunk, 3,5% Fett",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Fruchtzwerg",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Joghurt, pur, 10% Fett, Griechischer Joghurt, Sahne-Joghurt",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Joghurt, pur, 3,5% Fett",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Joghurt, pur, 3,8% Fett",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Joghurt, pur, fettarm 1,5% Fett",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kefir, 3,5% Fett",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Kefir, 10% Fett",
+        "fatContent": "25",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Kefir, fettarm, 1,5% Fett",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "l"
+    },
+    {
+        "name": "Fruchtkefir, 10% Fett",
+        "fatContent": "20",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fruchtkefir, 3,5% Fett",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fruchtkefir, fettarm 1,5% Fett",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Joghurt mit Frucht, 3,5% Fett",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Joghurt mit Frucht, fettarm 1,5% Fett",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Lassi (indisches Joghurtgetr\u00e4nk)",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sahnejoghurt mit Fr\u00fcchten, 10% Fett",
+        "fatContent": "13",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Cottage Cheese, H\u00fcttenk\u00e4se, k\u00f6rniger Frischk\u00e4se, 20% F. i. Tr.",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Frischk\u00e4se, Rahmstufe, 50% F. i. Tr.",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Frischk\u00e4se, Doppelrahmstufe, 60% F. i. Tr.",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fruchtquark, 20% F. i. Tr.",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kr\u00e4uterquark, 20% F. i. Tr.",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kr\u00e4uterquark, 40% F. i. Tr.",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mascarpone, 80% F. i. Tr.",
+        "fatContent": "24",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mozzarella, 45% F. i. Tr.",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 60,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Ricotta, 20% F. i. Tr.",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schichtk\u00e4se, 20% F. i. Tr.",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schichtk\u00e4se, 40% F. i. Tr.",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Speisequark, 20% F. i. Tr.",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Speisequark, 40% F. i. Tr.",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hartk\u00e4se, 50% F. i. Tr. (Appenzeller, Bergk\u00e4se, Chester)",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Emmentaler, 45% F. i. Tr.",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Greyerzer, 45% F. i. Tr.",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Parmesan, 37% F. i. Tr.",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Parmesan 37% F. i. Tr., gerieben",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kochk\u00e4se, 20% F. i. Tr.",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kochk\u00e4se, 40% F. i. Tr.",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Scheibletten, 20% F. i. Tr.",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Scheibletten, 40% F. i. Tr.",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schmelzk\u00e4se, 20% F. i. Tr.",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schmelzk\u00e4se, 45% F. i. Tr.",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schmelzk\u00e4se, 60% F. i. Tr.",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schmelzk\u00e4se, 70% F. i. Tr.",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Butterk\u00e4se, 50% F. i. Tr.",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Butterk\u00e4se, 60% F. i. Tr.",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Danablu (d\u00e4nischer Edelpilzk\u00e4se), 60% F. i. Tr.",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Danbo (d\u00e4nischer Steppenk\u00e4se), 50% F. i. Tr.",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Edamer, 45% F. i. Tr.",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Edelpilzk\u00e4se (Gorgonzola, Roquefort), 50% F. i. Tr.",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Edelpilzk\u00e4se (Gorgonzola, Roquefort), 70% F. i. Tr.",
+        "fatContent": "13",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Esrom, 45% F. i. Tr.",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Havarti (d\u00e4nischer Tilsiter), 45% F. i. Tr.",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mini Babybel, 50% F. i. Tr.",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Raclettek\u00e4se, 60% F. i. Tr.",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "R\u00e4ucherk\u00e4se, 50% F. i. Tr.",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rauch-Schinken-K\u00e4se, 45% F. i. Tr.",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rottaler, 45% F. i. Tr.",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schnittk\u00e4se (Edamer, Gouda, Tilsiter), 30% F. i. Tr.",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schnittk\u00e4se (Edamer, Gouda, Tilsiter), 45% F. i. Tr.",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Steppenk\u00e4se, 45% F. i. Tr.",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tilsiter, 45% F. i. Tr.",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tilsiter, 60% F. i. Tr.",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Trappistenk\u00e4se, 50% F. i. Tr.",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Wei\u00dflacker, 50% F. i. Tr.",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Bavaria Blu, 70% F. i. Tr.",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Bel Paese, 50% F. i. Tr.",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Feta-, Schafsk\u00e4se, 48% F. i. Tr.",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Klosterk\u00e4se, 60% F. i. Tr.",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Weichk\u00e4se mit Rotschimmel (Limburger, Romadur), 40% F. i. Tr.",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Weichk\u00e4se mit Rotschimmel (Limburger, Romadur), 50% F. i. Tr.",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Weichk\u00e4se mit Rotschimmel (Limburger, Romadur), 60% F. i. Tr.",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Weichk\u00e4se, 70% F. i. Tr.",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Weinbergk\u00e4se, 60% F. i. Tr.",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Wei\u00dfschimmelk\u00e4se (Camembert), 30% F. i. Tr.",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Wei\u00dfschimmelk\u00e4se (Brie, Camembert), 45% F. i. Tr.",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Wei\u00dfschimmelk\u00e4se (Camembert), 60% F. i. Tr.",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Wei\u00dfschimmelk\u00e4se (Brie, Camembert), 70% F. i. Tr.",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Cacik (t\u00fcrkischer Zaziki, Tsatsiki mit 10% Joghurt)",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Gebackener Camembert",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 75,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Zaziki/Tsatsiki (mit Quark)",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "K\u00e4se-Fondue, gebrauchsfertig",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Butter, 1 Portion, 20 g",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Butter, 1 EL, 12 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 12,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Butter, 1 TL, 5 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 5,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Butter, 100 g",
+        "fatContent": "83",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Butter, fl\u00fcssig, 1 EL, 12 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 12,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Erdnussmus, 1 EL, 12 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 12,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Halbfettmargarine, 40% Fett, 1 EL, 12 g",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 12,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Halbfettmargarine, 40% Fett, 1 TL, 5 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 5,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kr\u00e4uterbutter, 73% Fett, 10 g",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Margarine (Pflanzen-), 1 Portion 20 g",
+        "fatContent": "16",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Margarine (Pflanzen-), 1 EL, 12 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 12,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Margarine (Pflanzen-), 1 TL, 5 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 5,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Margarine (Pflanzen-), 100 g",
+        "fatContent": "80",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Speise\u00f6l, 1 EL, 12 g",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 12,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Speise\u00f6l, 1 TL, 5 g",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 5,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kokosfett, Palmkernfett, 1 W\u00fcrfel",
+        "fatContent": "25",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mayonnaise, 50% Fett",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mayonnaise, 80% Fett",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "1 Ei, 58-60 g, Gew.-Kl. M, roh oder gekocht",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 58,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "1 Eigelb, 19 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 19,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Apfelpfannkuchen, 250 g (2 St\u00fcck + \u00bd Apfel (50 g))",
+        "fatContent": "16",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Cr\u00eapes, natur, 3 St\u00fcck, 200 g",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Eierpfannkuchen, ohne Zucker, 2 St\u00fcck 200 g",
+        "fatContent": "16",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Eiersalat, 100 g",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Eierstich, Suppeneinlage f\u00fcr 4 Portionen",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "K\u00e4se-Souffl\u00e9, 200 g",
+        "fatContent": "46",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kaiserschmarrn, 250 g",
+        "fatContent": "24",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Omelette, 1 St\u00fcck (2 Eier, 20 g Fett und 1 EL Sahne)",
+        "fatContent": "31",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "st\u00fcck"
+    },
+    {
+        "name": "R\u00fchrei, (1 Ei, 1 TL Fett, 1 EL Milch 3,8% Fett)",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "st\u00fcck"
+    },
+    {
+        "name": "R\u00fchrei (1 Ei, 1 TL Fett, 1 EL Sahne)",
+        "fatContent": "16",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "st\u00fcck"
+    },
+    {
+        "name": "Salzburger Nockerln, 200 g",
+        "fatContent": "23",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Spiegelei (1 Ei, 1 TL Fett)",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "st\u00fcck"
+    },
+    {
+        "name": "Waffel (R\u00fchrteig), 1 gro\u00dfe, 58 g",
+        "fatContent": "24",
+        "isFavorite": false,
+        "typicalPortionSize": 58,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kalbfleisch Bug, Schulter",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kalbfleisch Filet, mager",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kalbfleisch Haxe",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kalbfleisch Keule, Schlegel",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kalbfleisch Kotelett",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kalbfleisch Schnitzel",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Lammfleisch Brust",
+        "fatContent": "31",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Lammfleisch Bug, Schulter ohne Knochen",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Lammfleisch Filet, mager",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Lammfleisch Keule",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Lammfleisch Kotelett",
+        "fatContent": "21",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rindfleisch Brust",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rindfleisch Bug, Schulter",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rindfleisch Filet, mager",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rindfleisch H\u00fcfte, Blume",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rindfleisch Nuss",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Roastbeef",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Roulade",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tafelspitz",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweinefleisch Bauch",
+        "fatContent": "26",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweinefleisch Bug, Schulter",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweinefleisch Filet, mager",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweinefleisch Haxe, Eisbein",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweinefleisch Kotelett",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweinefleisch Nacken",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweinefleisch R\u00fccken",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweinefleisch Schnitzel",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hackfleisch Hack, gemischt",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hackfleisch Hack vom Rind",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hackfleisch Hack vom Schwein",
+        "fatContent": "22",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hackfleisch Tatar (Rind, mager)",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Leber, Kalb",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Leber, Rind",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Leber, Schwein",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rindermark",
+        "fatContent": "94",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Zunge, Kalb",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Zunge, Rind",
+        "fatContent": "20",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Zunge, Schwein",
+        "fatContent": "13",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Bifteki (gef\u00fcllt Hacksteaks)",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "portion"
+    },
+    {
+        "name": "Brechbohnen-Eintopf mit R\u00e4ucherspeck, Kartoffeln und Fleisch",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Bratenfond, mager",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "portion"
+    },
+    {
+        "name": "Bratenfond, fett",
+        "fatContent": "21",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "portion"
+    },
+    {
+        "name": "Cevapcici, 100 g",
+        "fatContent": "20",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Chili con carne, 400 g",
+        "fatContent": "24",
+        "isFavorite": false,
+        "typicalPortionSize": 400,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Cordon bleu (Schwein), 150 g",
+        "fatContent": "38",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Currybratwurst, 1 St\u00fcck 150 g",
+        "fatContent": "24",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "D\u00f6ner Kebab",
+        "fatContent": "33",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "portion"
+    },
+    {
+        "name": "Filetsteak (125 g), Kartoffeln (200 g), Sauce B\u00e9arnaise",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "portion"
+    },
+    {
+        "name": "Fleischbr\u00fche, 1/8 l",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "portion"
+    },
+    {
+        "name": "Fleischk\u00e4se, 150 g",
+        "fatContent": "41",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Frikadelle, Bulette, Hackfleischb\u00e4llchen, Klopse, Fleischpflanzerl, K\u00f6fte, 150 g",
+        "fatContent": "24",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "J\u00e4gerschnitzel mit So\u00dfe, klein 100 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "J\u00e4gerschnitzel mit So\u00dfe, gro\u00df 200 g",
+        "fatContent": "20",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kalbsgeschnetzeltes mit So\u00dfe oder Z\u00fcricher Geschnetzeltes, 250 g",
+        "fatContent": "16",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kalbshaxe, geschmort mit So\u00dfe, 250 g",
+        "fatContent": "16",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kartoffelsuppe (250 g) und 1 Paar Wienerle",
+        "fatContent": "26",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "portion"
+    },
+    {
+        "name": "Kassler ohne Knochen, 125 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kohlroulade, Krautwickel, Wirsingkohlroulade, 1 St\u00fcck",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "st\u00fcck"
+    },
+    {
+        "name": "K\u00f6nigsberger Klopse mit Kapernso\u00dfe, 260 g",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 260,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Lammbraten mit So\u00dfe, 260 g",
+        "fatContent": "42",
+        "isFavorite": false,
+        "typicalPortionSize": 260,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Lammkotelett, gebraten, ohne Beilage",
+        "fatContent": "26",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Lammragout, 200 g",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Leberkn\u00f6del, 2 Kn\u00f6del, 200 g",
+        "fatContent": "13",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Osso buco (Kalbshaxe), ohne Beilage",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Paprikaschote, gef\u00fcllt mit Hackfleisch, 300 g",
+        "fatContent": "23",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pichelsteiner Eintopf, 450 g",
+        "fatContent": "21",
+        "isFavorite": false,
+        "typicalPortionSize": 450,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rahmschnitzel, 200 g + 3 EL Rahmso\u00dfe, 60 g",
+        "fatContent": "20",
+        "isFavorite": false,
+        "typicalPortionSize": 260,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rindergulasch mit So\u00dfe, 250 g",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rinderroulade mit So\u00dfe",
+        "fatContent": "16",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rinds-Bouillon mit Ei, 0,15 l",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Roastbeef, gebraten mit Speck, 125 g",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sat\u00e9 mit Erdnussso\u00dfe, 60 g",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 60,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sauerbraten mit So\u00dfe, 350 g",
+        "fatContent": "25",
+        "isFavorite": false,
+        "typicalPortionSize": 350,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schaschlikspie\u00df, 1 St\u00fcck",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "st\u00fcck"
+    },
+    {
+        "name": "Schnecken, 100 g + 20 g Kr\u00e4uterbutter",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 120,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweinebraten mit So\u00dfe, 250 g",
+        "fatContent": "46",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweinegulasch, 250 g",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweinekotelett, paniert, 150 g in Fett gebraten",
+        "fatContent": "25",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweineschnitzel, naturgebraten, 125 g in Fett gebraten",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweinshaxe, bayrisch oder Eisbein, 1 St\u00fcck",
+        "fatContent": "30",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "st\u00fcck"
+    },
+    {
+        "name": "Souflaki (Lamm), ohne Beilage",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Spaghetti Bolognese, 420 g",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 420,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Szegediner Gulasch",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Wiener Schnitzel oder Schweineschnitzel, paniert, klein, 100 g",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Wiener Schnitzel oder Schweineschnitzel, paniert, gro\u00df, 200 g",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Wurstsalat (\u00d6lmarinade), 100 g",
+        "fatContent": "22",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Eisbeinfleisch in Aspik, 100 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fleischsalat mit Mayonnaise, 75 g",
+        "fatContent": "36",
+        "isFavorite": false,
+        "typicalPortionSize": 75,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pferdefleisch in Dosen, 125 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rauchfleisch, 100 g",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rindfleisch in Dosen, 125 g",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rindfleisch in Aspik, 100 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schinkenspeck oder Speck, durchwachsen, 30 g",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweinefleisch im Saft, in Dosen, 125 g",
+        "fatContent": "31",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweinskopfs\u00fclze, 100 g",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "S\u00fclzkotelett, 200 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Bifi*, Original, 1 St\u00fcck, 25 g",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Bockwurst, 115 g",
+        "fatContent": "29",
+        "isFavorite": false,
+        "typicalPortionSize": 115,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Bratwurst, Schwein, 150 g",
+        "fatContent": "39",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fleischk\u00e4se, Leberk\u00e4se, 150 g",
+        "fatContent": "41",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fleischwurst am St\u00fcck, 125 g",
+        "fatContent": "32",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Frankfurter W\u00fcrstchen, 1 Paar, 100 g",
+        "fatContent": "24",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kabanossi, 30 g",
+        "fatContent": "13",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Knackwurst, 100 g",
+        "fatContent": "21",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "M\u00fcnchner Wei\u00dfwurst, 125 g",
+        "fatContent": "34",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "N\u00fcrnberger Rostbratwurst, 100 g",
+        "fatContent": "29",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Regensburger Wurst, 100 g",
+        "fatContent": "26",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rostbratwurst, 100 g",
+        "fatContent": "30",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Wiener W\u00fcrstchen, 1 Paar, 70 g",
+        "fatContent": "16",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Bierwurst",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Blutwurst, Rotwurst",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Blutwurst, Th\u00fcringer Art",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "B\u00fcndner Fleisch, Rinderschinken",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Cervelatwurst",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Corned Beef",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fr\u00fchst\u00fccksfleisch",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Gelbwurst, Hirnwurst",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "G\u00f6ttinger Wurst",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Jagdwurst",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kalbsk\u00e4se",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kalbsleberwurst",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kassler Aufschnitt",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Krakauer Wurst",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Lachsschinken",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Landj\u00e4ger",
+        "fatContent": "13",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Leberk\u00e4se",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Leberpresssack",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Leberwurst, Hausmacher Art",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Lyoner",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mettwurst, Braunschweiger",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mortadella",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pf\u00e4lzer Leberwurst",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Plockwurst",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Salami",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schinken, gekocht",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schinken, roh, ger\u00e4uchert",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schinkenpastete, fettreduziert",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schinkenwurst",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schlackwurst",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schmalzfleisch in Dosen",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schwartenmagen, Presswurst (rot)",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "S\u00fclzwurst",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Teewurst",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tr\u00fcffelleberwurst",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Zungenwurst",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Zwiebelwurst",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Ente",
+        "fatContent": "22",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Gans",
+        "fatContent": "39",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Huhn, Brathuhn, H\u00e4hnchen",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Huhn, Brust, ohne Haut",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Huhn, Keule mit Haut, ohne Knochen",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Putenbrust, Putenschnitzel",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Putenkeule",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Suppenhuhn",
+        "fatContent": "25",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Truthahn, Puter (Jungtier)",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Brath\u00e4hnchen, klein, 12 St\u00fcck, 350 g",
+        "fatContent": "33",
+        "isFavorite": false,
+        "typicalPortionSize": 350,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Chicken-Nuggets, frittiert, 3 St\u00fcck, 50 g",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Ente, Gans, gebraten, 125 g mit So\u00dfe, 60 g",
+        "fatContent": "32",
+        "isFavorite": false,
+        "typicalPortionSize": 185,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "H\u00e4hnchenkeule, Grillh\u00e4hnchen, Brath\u00e4hnchen, 125 g",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "H\u00e4hnchenkeule mit Pommes frites, mittlere Portion",
+        "fatContent": "29",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "portion"
+    },
+    {
+        "name": "H\u00fchnerfrikassee, 250 g",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Putenschnitzel, paniert, gebraten, 180 g",
+        "fatContent": "13",
+        "isFavorite": false,
+        "typicalPortionSize": 180,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Putenschnitzel, natur, gebraten, 150 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "G\u00e4nseleberpastete, 25 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Gefl\u00fcgelleberwurst, 30 g",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Gefl\u00fcgelmortadella, 30 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Gefl\u00fcgelsalat \u201eHawai\u201c, 100 g",
+        "fatContent": "29",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Gefl\u00fcgelsalat (Huhn, Pute), 25 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Gefl\u00fcgelw\u00fcrstchen, 50 g",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Puten-, Truthahnbrust, ger\u00e4uchert, 30 g",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Putenfleischwurst, -fleischk\u00e4se, -lyoner, 30 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Truthahn Fleischpastete, 30 g",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Truthahn-Jagdwurst, 30 g",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Truthahn-Bierschinken, 30 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fasan, Brust",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hase",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hirsch",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kaninchen",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Reh, Keule",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Reh, R\u00fccken",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Strau\u00dfenfleisch",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Wildschwein, Keule",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hirschgulasch mit So\u00dfe, 250 g",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kaninchen in Rotwein",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Aal (Flussaal)",
+        "fatContent": "37",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Barsch",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Brasse",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "B\u00fcckling",
+        "fatContent": "31",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Felchen (Renke)",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Flunder",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Forelle, mittelgro\u00df",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Goldbarsch, Rotbarsch",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Haifisch, Dornhai",
+        "fatContent": "22",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hecht",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Heilbutt, wei\u00df",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hering, mittelgro\u00df",
+        "fatContent": "27",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Heringsrogen, 100 g",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kabeljau, Dorsch",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Karpfen",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Katfisch (Steinbei\u00dfer)",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Lachs (Salm)",
+        "fatContent": "20",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Makrele",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Meerbarbe",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pangasiusfilet",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sardine",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schellfisch",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schleie",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Scholle",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schwertfisch",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Seehecht",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Seelachs (K\u00f6hler)",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Seeteufel (Anglerfisch)",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Seezunge",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sprotte, 100 g",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Steinbutt",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "St\u00f6r",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Thunfisch",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tintenfisch (Kalamaris)",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Waller (Wels)",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Zander",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Aal, ger\u00e4uchert, 75 g",
+        "fatContent": "22",
+        "isFavorite": false,
+        "typicalPortionSize": 75,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Bismarckhering, 1 St\u00fcck mittel, 150 g",
+        "fatContent": "24",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Brathering, 1 St\u00fcck, mittel, 180 g",
+        "fatContent": "27",
+        "isFavorite": false,
+        "typicalPortionSize": 180,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Flunder, ger\u00e4uchert, 50 g",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Forellenfilet, ger\u00e4uchert, 40 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 40,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Heilbutt, ger\u00e4uchert, 50 g",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Heringsfilet in Tomatenso\u00dfe, 100 g",
+        "fatContent": "13",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Heringsfilet in Sahneso\u00dfe, 100 g",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Heringsstippe, 100 g",
+        "fatContent": "21",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Katfisch (Steinbei\u00dfer), ger\u00e4uchert, 50 g",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Krabbensalat mit Mayonnaise, 40 g",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 40,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Lachs in \u00d6l, abgetropft, 50 g",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Makrele, ger\u00e4uchert, 50 g",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Matjesfilet, 1 Filet 80 g",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 80,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "\u00d6lsardine, abgetropft, 1 Sardine, 25 g",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "\u00d6lsardine, 1 Dose, Fischeinwaage 95 g",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 95,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rollmops, 125 g",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rotbarsch, ger\u00e4uchert, 50 g",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sahne Heringsfilet, 300 g",
+        "fatContent": "40",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sardellen (Anchovis), 1 St\u00fcck, 5 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 5,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schillerlocke, 100 g",
+        "fatContent": "24",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Seelachs in \u00d6l, Lachsersatz, 50 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sprotte, ger\u00e4uchert, Kieler Sprotte, 50 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Thunfisch in \u00d6l, abgetropft, 50 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Thunfisch in \u00d6l, 1 Dose Fischeinwaage 180 g",
+        "fatContent": "36",
+        "isFavorite": false,
+        "typicalPortionSize": 180,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Avocadoh\u00e4lfte mit Krabbensalat (30 g) gef\u00fcllt",
+        "fatContent": "23",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "portion"
+    },
+    {
+        "name": "Tintenfischringe, frittiert, 125 g",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fischfrikadelle, paniert, gebraten, 80 g",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 80,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fischst\u00e4bchen, paniert gebraten, 30 g",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fisch & Chips, 100 g",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Matjesbr\u00f6tchen",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "portion"
+    },
+    {
+        "name": "Kabeljaufilet, paniert, gebraten, 175 g",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 175,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Krabbenbr\u00f6tchen",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "portion"
+    },
+    {
+        "name": "Lachs, 1 St\u00fcck 125 g",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Matjes, Hausfrauenart, 65 g",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 65,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Scholle, paniert, gebraten, 175 g",
+        "fatContent": "16",
+        "isFavorite": false,
+        "typicalPortionSize": 175,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hummer, ausgel\u00f6stes Fleisch, 100 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Krabben (Garnelen), ausgel\u00f6ste, 100 g",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Krebs, 80-100 g = 25 g Krebsfleisch",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Krebsfleisch in Dosen, 100 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Muscheln (Miesmuscheln), ausgel\u00f6st, 100 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Scampi (Langusten), ausgel\u00f6st, 100 g",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Shrimps, ausgel\u00f6st, 100 g",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Oliven mit Mandeln, 1 St\u00fcck, 8 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 8,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Oliven, gr\u00fcn, eingelegt, 4 St\u00fcck, 20 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Oliven, schwarz, eingelegt, 4 St\u00fcck, 20 g",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Avocado, \u00bd St\u00fcck, 115 g",
+        "fatContent": "27",
+        "isFavorite": false,
+        "typicalPortionSize": 115,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Cranberry (Moosbeere), roh, 300 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Apfel-Rotkohl, 2-3 Portionen, 450 g",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 450,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Balkangem\u00fcse, 2 Portionen, 300 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Buttergem\u00fcse, 2 Portionen, 300 g",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Butter-Leipziger-Allerlei, 2 Portionen, 300 g",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Gr\u00fcnkohl mit Schmalz, 200 g",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rahm-Spinat, 2 Portionen, 300 g",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sojabohnen, roh, 60 g",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 60,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Bratkartoffeln (aus 200 g Kartoffeln und 1 EL Fett)",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "portion"
+    },
+    {
+        "name": "Kartoffelbrei, selbst zubereitet, 2 EL, 100 g",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kartoffelchips, \u00f6lger\u00f6stet, 15 gro\u00dfe Scheiben, 30 g",
+        "fatContent": "13",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kartoffelchips, \u00f6lger\u00f6stet, 50 g",
+        "fatContent": "20",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kartoffelgratin, 200 g",
+        "fatContent": "21",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kartoffelpuffer (Reibekuchen), zubereitet, 3 Puffer, 150 g",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kartoffelsalat mit Mayonnaise, 250 g",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kartoffelsuppe, 250 g",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kroketten, frittiert, 7\u20138 St\u00fcck, 150 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pomme Dauphine, 150 g",
+        "fatContent": "38",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pommes frites, aus dem Backofen, 150 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pommes frites, frittiert, 150 g",
+        "fatContent": "25",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pommes frites, frittiert, kleine Portion, 70 g",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pommes frites, frittiert, mittlere Portion, 105 g",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 105,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "R\u00f6stkartoffeln, zubereitet mit 1 EL Fett, 250 g",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweizer R\u00f6sti, 1 St\u00fcck, 50 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Meerrettich i.d. Glas*, Thomy, 1 TL, 8 g",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 8,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Meerrettich i.d. Tube*, Thomy, 1 TL, 8 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 8,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sahne-Meerrettich*, K\u00fchne, 1 EL, 15 g",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Cashewn\u00fcsse, 2 EL, 20 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Erdn\u00fcsse, ger\u00f6stet 1 TL, 5 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 5,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Erdn\u00fcsse, ger\u00f6stet, 1 Beutel, 50 g",
+        "fatContent": "25",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Haseln\u00fcsse, 10 Kerne, 10 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Haseln\u00fcsse, gemahlen, 1 EL, 10 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kokosnuss, frisch, 1 St\u00fcck, 50 g",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kokosraspeln, getrocknet, 100 g",
+        "fatContent": "62",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "K\u00fcrbiskerne, 1 EL, 15 g",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Leinsamen, ungesch\u00e4lt, 1 EL, 15 g",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Macadamian\u00fcsse, 1 EL, 10 g",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Maronen (Edelkastanie), ger\u00f6stet, 5 St\u00fcck, 30 g",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mandeln, s\u00fc\u00df, 10 Kerne, 15 g",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mohnsamen, 1 EL, 10 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Paran\u00fcsse, 3 Kerne, 12 g",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 12,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pekann\u00fcsse, 4\u20135 Kerne, 20 g",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pinienkerne, 2 EL, 20 g",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pistazien, 1 EL, 10 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sesamsamen, 1 EL, 15 g",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sonnenblumenkerne, gesch\u00e4lt, 1 EL, 15 g",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Studentenfutter, 2 EL, 25 g",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Waln\u00fcsse, 10 H\u00e4lften, 20 g",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Cornflakes* mit Milch, 220 g, davon 30 g Cornflakes",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 220,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Dampfnudeln (Rohrnudeln), 2 St\u00fcck, 100 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Gem\u00fcserisotto, verzehrfertig, 1 Portion, 250 g",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Getreidebratling, frisch zubereitet, 1 St\u00fcck, 125 g",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Grie\u00dfkl\u00f6\u00dfe, 2 St\u00fcck, 225 g",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 225,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Grie\u00dfschnitten, 3 St\u00fcck, 150 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hefekl\u00f6\u00dfe im Backofen, 2 St\u00fcck, 90 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 90,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hefekl\u00f6\u00dfe, 2 St\u00fcck, 180 g",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 180,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "K\u00e4sesp\u00e4tzle, 1 Portion, 250 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Leberkn\u00f6del, 2 St\u00fcck, 180 g",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 180,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Maultaschen, schw\u00e4bisch, gekocht, 1 St\u00fcck, 50 g",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Maultaschen, schw\u00e4bisch, gekocht, 150 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Porridge, 250 g",
+        "fatContent": "28",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Quinoa, Beilage, gegart, 150 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Ravioli mit Hackfleischf\u00fcllung, gegart, 250 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Semmelkn\u00f6del, 2 St\u00fcck, 180 g",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 180,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sp\u00e4tzle, Beilage, gegart, 150 g",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vollkornnudeln, Beilage, gegart, 150 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Zwetschgenkn\u00f6del mit Zimt und Zucker, 150 g",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Gem\u00fcse-Nudel-Auflauf aus 240 g gegarte Nudeln",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 240,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Lasagne mit Hackfleisch, 1 Portion, 250 g",
+        "fatContent": "36",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Nudelauflauf mit Hackfleisch, 1 Portion, 250 g",
+        "fatContent": "37",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Nudelsalat mit \u00c4pfeln, Tomaten und Mayonnaise, 160 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 160,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Spaghetti, gegart, 240 g mit 6 EL Bolognese",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 240,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Spaghetti, gegart, 240 g mit 6 EL Tomatenso\u00dfe",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 240,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Spaghetti, gegart, 240 g mit 6 EL Gorgonzolaso\u00dfe/Carbonara/K\u00e4seso\u00dfe/Sahneso\u00dfe",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 240,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Haferflocken 1 EL, 15 g",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "M\u00fcsli mit N\u00fcssen, 50 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "M\u00fcsli mit Schokolade, 50 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "M\u00fcsli mit Trockenfr\u00fcchten, 50 g",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Cini Minis",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Clusters* Mandel-Nuss",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Cornflakes*, Smacks*",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tresor*, Choco Nut",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vollkorn Haferfleks*",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hafermehl, 1 geh\u00e4ufter EL, 15 g",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Bl\u00e4tterteig-, Butterh\u00f6rnchen, Croissant, \u00bd St\u00fcck, 33 g",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 33,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Eiwei\u00dfbrot, Guten-Abendbrot, 2 Scheiben, 70 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Grahambrot, 1 d\u00fcnne Scheibe, 30 g",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "K\u00e4setoast, 65 g",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 65,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "K\u00e4setoast mit Fr\u00fcchten, 110 g",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 110,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "K\u00e4setoast mit Schinken, 95 g",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 95,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "K\u00e4setoast mit Schinken und Fr\u00fcchten, 140 g",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 140,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Erdnusscreme",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Nuss-Nougat-Creme",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Nutella*",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pflanzlicher Brotaufstrich, 30 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sardellenpaste, 1 TL, 10 g",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "K\u00f6nigspastete, 1 St\u00fcck",
+        "fatContent": "20",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "st\u00fcck"
+    },
+    {
+        "name": "Pizza Hawai, selbst zubereitet, 250 g",
+        "fatContent": "23",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pizza Margherita, selbst zubereitet, 250 g",
+        "fatContent": "21",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pizza Salami, selbst zubereitet, 250 g",
+        "fatContent": "31",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "1 Pizza aus der Pizzeria, Durchmesser 24 cm i.D.",
+        "fatContent": "31",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "pizza"
+    },
+    {
+        "name": "Bl\u00e4tterteig, 100 g",
+        "fatContent": "32",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Bl\u00e4tterteig, tiefgek\u00fchlt, 5 Scheiben, 300 g",
+        "fatContent": "50",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kuchen aus Quark-\u00d6l-Teig/R\u00fchrteig",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "st\u00fcck"
+    },
+    {
+        "name": "M\u00fcrbeteigboden, 300 g",
+        "fatContent": "68",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pizzateig, Hefeteig, roh, 30 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tortelett, ohne Belag, 25 g",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tortenboden, Biskuit-Obstboden, 200 g",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Back\u00f6l, 1 Fl\u00e4schchen, 2 ml",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 2,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Blockschokolade, 1\u00bd Tafel, 100 g",
+        "fatContent": "28",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kuvert\u00fcre, halbbitter, 100 g",
+        "fatContent": "36",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Marzipan-Rohmasse, 1\u00bd Packet, 125 g",
+        "fatContent": "43",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mohn, 125 g",
+        "fatContent": "53",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mokkabohnen, 10 Bohne, 15 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Apfelkuchen (Hefeteig), 150 g",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Apfelkuchen (R\u00fchrteig), 150 g",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Apfelkuchen, gedeckter (M\u00fcrbeteig), 100 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Apfelstrudel, 150 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Baumkuchen, 70 g",
+        "fatContent": "16",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Bienenstich, 75 g",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 75,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Biskuitrolle mit Sahnef\u00fcllung, 80 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 80,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Biskuitschnitte, 45 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 45,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Brownie, 45 g",
+        "fatContent": "27",
+        "isFavorite": false,
+        "typicalPortionSize": 45,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Buttercremetorte, 100 g",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Butterkuchen (Hefeteig, vom Blech), 75 g",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 75,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Christstollen, 70 g",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Donauwelle, 100 g",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Frankfurter Kranz, 80 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 80,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fr\u00fcchtebrot (R\u00fchrteig), 50 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fr\u00fcchtekuchen (Englischer Kuchen), 50 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Gew\u00fcrzkuchen, 60 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 60,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hefezopf, 70 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "K\u00e4sekuchen (Hefeteig vom Blech), 100 g",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "K\u00e4sekuchen, im Durchschnitt, 140 g",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 140,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "K\u00e4sesahnetorte, 120 g",
+        "fatContent": "23",
+        "isFavorite": false,
+        "typicalPortionSize": 120,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kekskuchen (Kalter Hund), 40 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 40,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "K\u00f6nigskuchen, 70 g",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Linzer Torte, 100 g",
+        "fatContent": "24",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mandelkuchen, 70 g",
+        "fatContent": "22",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mokka-Sahnetorte, 120 g",
+        "fatContent": "27",
+        "isFavorite": false,
+        "typicalPortionSize": 120,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mohnkuchen, Mohnstrietzel, 100 g",
+        "fatContent": "16",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mohnstreuselkuchen (Hefeteig vom Blech), 100 g",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Nusskuchen, 70 g",
+        "fatContent": "22",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Nusstorte, 100 g",
+        "fatContent": "24",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Obstkuchen (Hefeteig vom Blech), 100 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Obstkuchen (Quark-\u00d6l-Teig), 100 g",
+        "fatContent": "13",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Obsttorte (belegter Tortenboden, M\u00fcrbeteig), 130 g",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 130,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Obsttorte (belegter Tortenboden, Biskuitteig), 130 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 130,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Obstt\u00f6rtchen (belegte Torteletts), 100 g",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Prinzregententorte, 100 g",
+        "fatContent": "21",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Quark-\u00d6l-Teig, 30 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Quarkstollen (R\u00fchrteig), 70 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Quarkstrudel, 150 g",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Quiche Lorraine, 150 g",
+        "fatContent": "16",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rehr\u00fccken, 70 g",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rhabarbertorte mit Baiser, 100 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "R\u00fcblitorte (M\u00f6hren-Nuss-Torte), 120 g",
+        "fatContent": "20",
+        "isFavorite": false,
+        "typicalPortionSize": 120,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "R\u00fchrkuchen, Napfkuchen, Rodonkuchen, Marmorkuchen, 70 g",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sachertorte, 110 g",
+        "fatContent": "27",
+        "isFavorite": false,
+        "typicalPortionSize": 110,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sahnetorte, i.D., 120 g",
+        "fatContent": "27",
+        "isFavorite": false,
+        "typicalPortionSize": 120,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sandkuchen, 70 g",
+        "fatContent": "20",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schokoladen-Sahnetorte, 120 g",
+        "fatContent": "29",
+        "isFavorite": false,
+        "typicalPortionSize": 120,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schwarzw\u00e4lder Kirschtorte, 140 g",
+        "fatContent": "23",
+        "isFavorite": false,
+        "typicalPortionSize": 140,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Streuselkuchen (Hefeteig vom Blech), 75 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 75,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Zitronenkuchen, 70 g",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Zuckerkuchen, 70 g",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Zwetschgenkuchen, Pflaumenkuchen (Hefeteig), 100 g",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Zwiebelkuchen (Hefeteig vom Blech), 100 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Amerikaner, 100 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Apfeltasche, (Apfel im Schlafrock) (Bl\u00e4tterteig), 70 g",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Belgische (L\u00fctticher) Waffel, 60 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 60,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Berliner Pfannkuchen, Krapfen, Kr\u00e4ppel (mit Konfit\u00fcre), 60 g",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 60,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Bl\u00e4tterteigst\u00fccke, 70 g",
+        "fatContent": "23",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Buchteln (Hefeteig), 90 g",
+        "fatContent": "13",
+        "isFavorite": false,
+        "typicalPortionSize": 90,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Donut (Schmalzkrapfen), 75 g",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 75,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hefeteilchen i.D., 70 g",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Milch-Schnitte*, 28 g",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 28,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Muffin i.D., 45 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 45,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Nussecke (M\u00fcrbeteig), 50 g",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Plunderst\u00fcck mit Marzipanf\u00fcllung, 90 g",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 90,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rosinenschnecke, 65 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 65,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schuhsohle, gef\u00fcllt (Bl\u00e4tterteig), 100 g",
+        "fatContent": "32",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schweine\u00f6hrchen (Bl\u00e4tterteig), 50 g",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Spritzkuchen, 70 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Waffeln (Herzform), 55 g",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 55,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Wespennester (Baiser), 25 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Wiener H\u00f6rnchen (Hefeteig), 50 g",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Windbeutel mit Schlagsahne, 100 g",
+        "fatContent": "24",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "American Cookie, 19 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 19,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Butterkeks (M\u00fcrbekeks), 2 Kekse, 12 g",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 12,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Doppelkeks mit Kakaocremef\u00fcllung, 1 St\u00fcck, 24 g",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 24,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Keks-Riegel, 22 g",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 22,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kleingeb\u00e4ck, gemischt, 50 g",
+        "fatContent": "13",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "M\u00fcslikekse, 4 St\u00fcck, 20 g",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Nusspl\u00e4tzchen, 2 St\u00fcck, 20 g",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Spitzbuben (M\u00fcrbeteig), 20 g",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tortelett ohne Belag, 25 g",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tortenboden (Biskuitteig), 200 g",
+        "fatContent": "35",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tortenboden (M\u00fcrbeteig), 300 g",
+        "fatContent": "67",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vollkornm\u00fcrbekeks, 6 St\u00fcck, 30 g",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Waffel, mit Schokoladen\u00fcberzug, 2 St\u00fcck, 20 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Wiener Boden, 200 g",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Aachener Weichprinten, Schoko-Nuss, 25 g",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Butterkeks (M\u00fcrbekeks)",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 2,
+        "typicalPortionUnit": "Kekse"
+    },
+    {
+        "name": "Doppelkeks mit Kakaocremef\u00fcllung",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Keks-Riegel",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 22,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kleingeb\u00e4ck, gemischt",
+        "fatContent": "13",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "M\u00fcslikekse",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 4,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Nusspl\u00e4tzchen",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 2,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Spitzbuben (M\u00fcrbeteig)",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tortelett ohne Belag",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tortenboden (Biskuitteig)",
+        "fatContent": "35",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tortenboden (M\u00fcrbeteig)",
+        "fatContent": "67",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vollkornm\u00fcrbekeks",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 6,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Waffel, mit Schokoladen\u00fcberzug",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Wiener Boden",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 200,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Aachener Weichprinten, Schoko-Nuss",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Basler Leckerlie",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Buttergeb\u00e4ck",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Dominostein",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 13,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Dresdner Stollen, Christstollen",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Elisen-Lebkuchen",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 40,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fr\u00fcchtebrot (R\u00fchrteig)",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Heidesand",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Honigkuchen",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 70,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kokosmakronen",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Liegnitzer Bombe",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 60,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mandelmakronen",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Marzipanstollen (Hefeteig)",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mohnstollen",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "N\u00fcrnberger Lebkuchen",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 40,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pfefferkuchen",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pfeffern\u00fcsse",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 12,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pflastersteine",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 12,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Plumpudding",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Quarkstollen",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schwarz-Wei\u00df-Geb\u00e4ck",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Spekulatius",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Spritzgeb\u00e4ck",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vanillekipferl, Vanillem\u00fcrbchen",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 17,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Wespennest, Baiser",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Zimtstern",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 7,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "After Eight",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 3,
+        "typicalPortionUnit": "T\u00e4felchen"
+    },
+    {
+        "name": "Balisto KornMix",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "Bounty",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 2,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Choco Crossies",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Duplo",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "Ferrero K\u00fcsschen",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Hanuta",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "I love Milka",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 4,
+        "typicalPortionUnit": "Pralinen"
+    },
+    {
+        "name": "Karamell-Riegel",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kinder Bueno",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "Kinder Country",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "Kinder Happy Hippo Croki",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "Kinder Pingui",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "Kinder Schoko-Bon-Bon",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 2,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Kinderriegel",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "Kinderschokolade",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "Kitkat",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "Kitkat, Mini",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Knoppers",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "Lion",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "Lion, Mini",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "M+M`s Peanuts",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "kleine T\u00fcte"
+    },
+    {
+        "name": "Mars",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "Marzipan",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Marzipankartoffel",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 2,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Milch-Schnitte",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Mon Cheri",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Praline"
+    },
+    {
+        "name": "M\u00fcsli-Riegel",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Nappo",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Nippon-Knusper-H\u00e4ppchen",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "H\u00e4ppchen"
+    },
+    {
+        "name": "Nougat",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Nougatst\u00fcck",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 11,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Nussini Schoko-Riegel",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "Nuts-Riegel",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "Nuts, Mini",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Osterei \"Nougat\"",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Ei"
+    },
+    {
+        "name": "Osterei",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 2,
+        "typicalPortionUnit": "kleine Schokoladeneier"
+    },
+    {
+        "name": "Popcorn, s\u00fc\u00df",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Handvoll"
+    },
+    {
+        "name": "Praline",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 12,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Praline mit Marzipan gef\u00fcllt",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 12,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Raffaello, Rocher-Praline",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Kugel"
+    },
+    {
+        "name": "Rumkugel",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schokokuss",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schokolinsen",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Smarties",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Faltschachtel"
+    },
+    {
+        "name": "Snickers",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "Toffifee",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Tr\u00fcffel-Praline",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 12,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Twix",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Riegel"
+    },
+    {
+        "name": "\u00dcberraschungsei",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Erdn\u00fcsse, ger\u00f6stet",
+        "fatContent": "25",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Erdnusslocken, Erdnussflips",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Gem\u00fcsechips",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kartoffelchips, \u00f6lger\u00f6stet",
+        "fatContent": "13",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "K\u00e4segeb\u00e4ck, Bl\u00e4tterteig",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 40,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kr\u00e4cker, gro\u00dfe, rechteckig",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 36,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Reis-Geb\u00e4ck, japanisch",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tortillachips",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Blumenkohl-, Broccoli- oder Zucchinicremesuppe",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Borschtsch",
+        "fatContent": "21",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Champignoncremesuppe",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Cremesuppen",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Erbsensuppe mit Schinkenspeck",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Franz\u00f6sische Zwiebelsuppe",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Gulasch-/Ochsenschwanzsuppe, mit Kartoffelw\u00fcrfel",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Hackfleisch-Lauchsuppe",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "H\u00fchnersuppe mit 2 geh\u00e4uften EL Nudeleinlage",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Italienische Gem\u00fcsesuppe (Minestrone)",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Kartoffelsuppe",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "K\u00fcrbiscremesuppe",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Serbische Bohnensuppe",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Spanische Gem\u00fcsesuppe (Gazpacho)",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Spargelcremesuppe",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Tomatencremesuppe",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Bologneseso\u00dfe",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Bratenso\u00dfe, dunkel",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Frankfurter gr\u00fcne Kr\u00e4uterso\u00dfe",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "J\u00e4gerso\u00dfe",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "K\u00e4se-, Rahm-, Sahne- oder Kr\u00e4utersahneso\u00dfe",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Meerrettichso\u00dfe",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Sauce B\u00e9chamel",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Sauce B\u00e9rnaise, Sauce Hollandaise, Holl\u00e4ndische So\u00dfe",
+        "fatContent": "37",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Tomatenso\u00dfe",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Salatsauce aus Joghurt",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Salatsauce, franz\u00f6sische Vinaigrette",
+        "fatContent": "20",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Salatsauce aus Mayonnaise",
+        "fatContent": "21",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Salatsauce aus Essig und \u00d6l",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Aioli-Sauce",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Cocktailsauce",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Curry-Sauce",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Knoblauchso\u00dfe, hell",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mayonnaise, Remouladenso\u00dfe, 70% Fett",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mayonnaise, Remouladenso\u00dfe, 80% Fett",
+        "fatContent": "16",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pesto",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Grie\u00dfbrei",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kirschmichel",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Milchreis, Reisbrei",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "M\u00fcsli mit N\u00fcssen (50 g) mit Vollmilch (125 ml)",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "M\u00fcsli mit Schokolade (50 g) mit Vollmilch (125 ml)",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "M\u00fcsli mit Trockenfr\u00fcchten (50 g) mit Vollmilch (125 ml)",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Quarkauflauf mit \u00c4pfeln",
+        "fatContent": "24",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Biersuppe",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Brotsuppe",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Milchsuppe",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Buttermilchkaltschale",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Fruchtkaltschale",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Buttermilchgelee mit 3 EL Vanilleso\u00dfe",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Gezuckerte Beeren mit 125 ml Vollmilch",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "G\u00f6tterspeise mit 3 EL Vanilleso\u00dfe",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Grie\u00dfflammerie mit Kirschen",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Krokantcreme",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mokkacreme",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pudding, sturzf\u00e4hig",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pudding, sturzf\u00e4hig mit 3 EL Schokoladenso\u00dfe",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Quarkcreme mit Fr\u00fcchten",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rote Gr\u00fctze mit 60 ml Vollmilch",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schokoladencreme",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schokoladenflammeri",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vanillecreme",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vanilleflammeri",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Weincreme",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Apfelscheiben in Rumteig",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Arme Ritter (1 Scheibe Toast in 10 g Butter ausgebacken)",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Bananen im Teigmantel",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Birne Helene",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 180,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Cr\u00eape Suzette",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Cr\u00e8me br\u00fbl\u00e9e",
+        "fatContent": "32",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Omelette Souffl\u00e9",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Omelette Surprise",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pfirsich Melba",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Salzburger Nockerln",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Tiramisu",
+        "fatContent": "27",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Bayrische Creme",
+        "fatContent": "21",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mousse au Chocolat",
+        "fatContent": "23",
+        "isFavorite": false,
+        "typicalPortionSize": 90,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Schokoladenpudding",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vanillepudding",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Eiscreme",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 65,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fruchteis",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 65,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Milchspeiseeis",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 65,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Softeis, Frucht-",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 90,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Softeis, Milch-",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 90,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Eiskaffee mit Sahne",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Eisschokolade",
+        "fatContent": "30",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Spaghetti-Eis",
+        "fatContent": "23",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Krokantbecher",
+        "fatContent": "27",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Erdbeerbecher",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 300,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Karamellso\u00dfe",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 60,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Schokoladenso\u00dfe",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 60,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Vanilleso\u00dfe",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 60,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Weinschaumso\u00dfe",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 60,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Nussschokolade",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vollmilchschokolade",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Zartbitterschokolade",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Cocktailw\u00fcrstchen",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Erdn\u00fcsse",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 5,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Gefl\u00fcgelsalat",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Haselnusskerne",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Heringssalat",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kartoffelsalat mit Mayonnaise",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "K\u00e4sew\u00fcrfel",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Kr\u00e4cker, gro\u00df, rechteckig",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 36,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mandel",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Mayonnaise (80%)",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 10,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Oliven, gr\u00fcn, eingelegt",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Oliven, schwarz, eingelegt",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Oliven mit Mandeln",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 8,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Rollmops",
+        "fatContent": "19",
+        "isFavorite": false,
+        "typicalPortionSize": 125,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Salzmandel",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Studentenfutter",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Waldorfsalat",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Waln\u00fcsse",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Brownie",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Belgische (L\u00fctticher) Waffel",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Donut (Schmalzkrapfen)",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Bl\u00e4tterteig-, Butterh\u00f6rnchen, Croissant",
+        "fatContent": "22",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Krapfen, Bagel",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Baklava",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Milchshake, Vanille",
+        "fatContent": "15",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Becher"
+    },
+    {
+        "name": "Baguette Classic (mit Schinken, K\u00e4se, Salat, Tomate)",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Baguette mit Mozzarella und Tomate",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Baguette Salami (Salami, Salat, Tomate)",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "K\u00e4setoast mit Schinken und Fr\u00fcchten",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Toast"
+    },
+    {
+        "name": "K\u00e4setoast mit Schinken",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Toast"
+    },
+    {
+        "name": "Laugenbrezel mit Butter",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Pizza aus der Pizzeria, Durchmesser 24 cm i.D.",
+        "fatContent": "31",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Pizza Hawai",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Pizza Margarita",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Pizza, vegetarisch",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 0.25,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Quiche Lorraine",
+        "fatContent": "16",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Sesambagel",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "gro\u00dfer"
+    },
+    {
+        "name": "Zwiebelkuchen (Hefeteig vom Blech)",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Big King",
+        "fatContent": "31",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Big Mac",
+        "fatContent": "26",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Bockwurst",
+        "fatContent": "29",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Brath\u00e4hnchen",
+        "fatContent": "33",
+        "isFavorite": false,
+        "typicalPortionSize": 0.5,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Bratwurst mit Senf",
+        "fatContent": "39",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Cheeseburger, einfach",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Chicken-Nuggets",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 6,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Clubsandwich mit Gefl\u00fcgelfleisch",
+        "fatContent": "17",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Clubsandwich mit Tomaten-Mozzarella",
+        "fatContent": "16",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Currywurst mit So\u00dfe",
+        "fatContent": "38",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Doppel Cheeseburger",
+        "fatContent": "23",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Falafel im Fladenbrot mit Salat und So\u00dfe",
+        "fatContent": "20",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Fish & Chips",
+        "fatContent": "31",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Fleischk\u00e4sebaguette",
+        "fatContent": "34",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Fleischk\u00e4se",
+        "fatContent": "41",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Hamburger",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Hot Dog",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Lahmacun",
+        "fatContent": "24",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Pommes frites",
+        "fatContent": "25",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Wrap mit H\u00e4hnchenfleisch",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Burrito, klassisch",
+        "fatContent": "39",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Chop Suey",
+        "fatContent": "26",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Fleischpirogge mit Sauerkraut",
+        "fatContent": "18",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Fr\u00fchlingsrolle",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Gebratene Nudeln mit Gem\u00fcse",
+        "fatContent": "21",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Gebratener Reis mit H\u00e4hnchen, Ei und Gem\u00fcse",
+        "fatContent": "23",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Gyros mit Tsatsiki",
+        "fatContent": "34",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "K\u00e4sesp\u00e4tzle",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "K\u00f6tbullar mit Rahmso\u00dfe und Preiselbeeren",
+        "fatContent": "66",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Minestrone",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Paella",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Pekingsuppe",
+        "fatContent": "4.5",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Sushi mit Gem\u00fcse",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Sushi mit Fisch",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "St\u00fcck"
+    },
+    {
+        "name": "Thai-Curry mit H\u00e4hnchen und Reis",
+        "fatContent": "14",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "S\u00e4uglings-Anfangsnahrung",
+        "fatContent": "ca. 3-4",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "S\u00e4uglingsmilchnahrung Stufe Pre",
+        "fatContent": null,
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "S\u00e4uglingsmilchnahrung Stufe 1",
+        "fatContent": null,
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "S\u00e4uglings-Anfangsnahrung auf Proteinhydrolysatbasis (HA)",
+        "fatContent": null,
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "S\u00e4uglings-Anfangsnahrung auf Proteinhydrolysatbasis (HA1)",
+        "fatContent": null,
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "S\u00e4uglings-Anfangsnahrung auf Sojaproteinbasis",
+        "fatContent": null,
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Infatrini",
+        "fatContent": "5.4",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Infatrini Peptisorb",
+        "fatContent": "5.5",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Infasource",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Muttermilch/Frauenmilch",
+        "fatContent": null,
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "S\u00e4uglings-Folgenahrung",
+        "fatContent": "ca. 3-4",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Folgemilchnahrung Stufe 2",
+        "fatContent": null,
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Folgenahrung auf Proteinhydrolysatbasis",
+        "fatContent": null,
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Gem\u00fcsezubereitung",
+        "fatContent": "ca. 0-8",
+        "isFavorite": false,
+        "typicalPortionSize": 190,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Instant-Milchbreie pro Portion",
+        "fatContent": "ca. 3,5-9",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Milchbreie im Glas",
+        "fatContent": "ca. 3-7",
+        "isFavorite": false,
+        "typicalPortionSize": 190,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Instant-Brei und Brei zum Kochen",
+        "fatContent": "ca. 0-5,5",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Verzehrfertiger Brei",
+        "fatContent": null,
+        "isFavorite": false,
+        "typicalPortionSize": 190,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Fruchtzubereitung",
+        "fatContent": "ca. 0-8",
+        "isFavorite": false,
+        "typicalPortionSize": 190,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Men\u00fcs",
+        "fatContent": "ca. 1,5-5",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Duocal",
+        "fatContent": "2,1",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "BiCal",
+        "fatContent": "3,8",
+        "isFavorite": false,
+        "typicalPortionSize": 15,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Scandi Shake Mix",
+        "fatContent": "18,8",
+        "isFavorite": false,
+        "typicalPortionSize": 240,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "NutriniDrink Multi Fibre",
+        "fatContent": "6,8",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Frebini Energy Fibre DRINK",
+        "fatContent": "6,7",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Resource 2.0 + fibre",
+        "fatContent": "8,7",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Fortimel Energy Multi Fibre",
+        "fatContent": "5,8",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Fortimel Compact",
+        "fatContent": "9,3",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Fresubin Energy Fibre DRINK",
+        "fatContent": "5,8",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Resource, Diabet Plus",
+        "fatContent": "6,3",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Diben DRINK",
+        "fatContent": "5,8",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Mandeldrink, ohne Zucker",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 250,
+        "typicalPortionUnit": "ml"
+    },
+    {
+        "name": "Joghurtersatz aus Kokosmilch",
+        "fatContent": "12",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Joghurtersatz aus Soja",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Joghurtersatz aus Soja, mit Frucht",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 150,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vegane Sahne auf Haferbasis",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vegane Sahne auf Sojabasis",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Falafel",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 1,
+        "typicalPortionUnit": "Portion"
+    },
+    {
+        "name": "Tofu (Sojak\u00e4se)",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 100,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vegane Burger Typ Rind",
+        "fatContent": "9",
+        "isFavorite": false,
+        "typicalPortionSize": 90,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vegetarische Bratw\u00fcrstchen",
+        "fatContent": "10",
+        "isFavorite": false,
+        "typicalPortionSize": 50,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vegetarische Frikadelle",
+        "fatContent": "1",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vegetarische Wiener",
+        "fatContent": "23",
+        "isFavorite": false,
+        "typicalPortionSize": 90,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vegetarisches Schnitzel",
+        "fatContent": "8",
+        "isFavorite": false,
+        "typicalPortionSize": 90,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Hummus, natur",
+        "fatContent": "6",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pflanzlicher Brotaufstrich mit N\u00fcssen",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pflanzlicher Brotaufstrich mit \u00d6l",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Pflanzlicher Brotaufstrich",
+        "fatContent": "4",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vegane Salami",
+        "fatContent": "2",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Veganer Frischk\u00e4se",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Veganer Scheibenk\u00e4se",
+        "fatContent": "5",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Veganer Streuk\u00e4se",
+        "fatContent": "7",
+        "isFavorite": false,
+        "typicalPortionSize": 30,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vegetarische Leberwurst",
+        "fatContent": "11",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vegetarische Mortadella",
+        "fatContent": "3",
+        "isFavorite": false,
+        "typicalPortionSize": 20,
+        "typicalPortionUnit": "g"
+    },
+    {
+        "name": "Vegetarische Teewurst",
+        "fatContent": "22",
+        "isFavorite": false,
+        "typicalPortionSize": 25,
+        "typicalPortionUnit": "g"
+    }
+]
