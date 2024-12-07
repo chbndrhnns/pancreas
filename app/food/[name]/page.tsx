@@ -28,6 +28,10 @@ export default function FoodDetail({params}: { params: { name: string } }) {
     const [numberOfPortions, setNumberOfPortions] = useState(1)
     const {isFavorite, toggleFavorite} = useFavorites()
 
+    // Parse the base fat content and typical portion size once
+    const baseFatContent = parseFloat(foodItem?.fatContent || '0')
+    const basePortionSize = foodItem?.typicalPortionSize || 100
+
     useEffect(() => {
         const decodedName = decodeURIComponent(params.name)
         const item = foodData.foodItems.find(item => item.name === decodedName)
@@ -39,8 +43,8 @@ export default function FoodDetail({params}: { params: { name: string } }) {
 
     if (!foodItem) return <div>Loading...</div>
 
-    const fatContent = parseFloat(foodItem.fatContent || '0')
-    const adjustedFatContent = (fatContent * portion * numberOfPortions / 100).toFixed(1)
+    // Calculate the adjusted fat content based on the ratio of selected portion to typical portion
+    const adjustedFatContent = (baseFatContent * (portion / basePortionSize) * numberOfPortions).toFixed(1)
     const enzymeDosage = Math.ceil((parseFloat(adjustedFatContent) * 2000) / selectedSupplement.lipaseUnits)
 
     const handlePortionChange = (newPortion: number[]) => {
