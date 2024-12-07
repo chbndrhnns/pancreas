@@ -28,6 +28,14 @@ export default function FoodDetail({params}: { params: { name: string } }) {
     const [numberOfPortions, setNumberOfPortions] = useState(1)
     const {isFavorite, toggleFavorite} = useFavorites()
 
+    const getMaxPortionSize = (unit: string) => {
+        return ['g', 'ml'].includes(unit.toLowerCase()) ? 500 : 10
+    }
+
+    const getStepSize = (unit: string) => {
+        return ['g', 'ml'].includes(unit.toLowerCase()) ? 10 : 1
+    }
+
     // Parse the base fat content and typical portion size once
     const baseFatContent = parseFloat(foodItem?.fatContent || '0')
     const basePortionSize = foodItem?.typicalPortionSize || 100
@@ -48,7 +56,7 @@ export default function FoodDetail({params}: { params: { name: string } }) {
     const enzymeDosage = Math.ceil((parseFloat(adjustedFatContent) * 2000) / selectedSupplement.lipaseUnits)
 
     const handlePortionChange = (newPortion: number[]) => {
-        setPortion(newPortion[0])
+        setPortion(Math.max(1, newPortion[0]))
     }
 
     const handleNumberOfPortionsChange = (change: number) => {
@@ -79,15 +87,29 @@ export default function FoodDetail({params}: { params: { name: string } }) {
                 <div className="mb-6">
                     <label htmlFor="portion-slider" className="block text-sm font-medium mb-2">
                         Portion Size: {portion}{foodItem.typicalPortionUnit}
+                        <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => setPortion(foodItem.typicalPortionSize)}
+                            className="ml-2 text-xs"
+                        >
+                            Reset to default ({foodItem.typicalPortionSize}{foodItem.typicalPortionUnit})
+                        </Button>
                     </label>
-                    <Slider
-                        id="portion-slider"
-                        min={0}
-                        max={500}
-                        step={10}
-                        value={[portion]}
-                        onValueChange={handlePortionChange}
-                    />
+                    <div className="relative">
+                        <div
+                            className="absolute top-1/2 w-0.5 h-6 bg-primary/50 -translate-y-1/2 pointer-events-none"
+                            style={{left: `${(foodItem.typicalPortionSize / 500) * 100}%`}}
+                        />
+                        <Slider
+                            id="portion-slider"
+                            min={1}
+                            max={getMaxPortionSize(foodItem.typicalPortionUnit)}
+                            step={getStepSize(foodItem.typicalPortionUnit)}
+                            value={[portion]}
+                            onValueChange={handlePortionChange}
+                        />
+                    </div>
                 </div>
                 <div className="mb-6">
                     <label htmlFor="number-of-portions" className="block text-sm font-medium mb-2">
